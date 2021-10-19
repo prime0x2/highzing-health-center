@@ -6,8 +6,9 @@ const Footer = () => {
     return (
         <div className="footer container-fluid text-center bg-dark py-4 d-flex justify-content-around">
             <div className="row row-cols-1 row-cols-md-3 align-items-center justify-content-around">
-                <div className="col px-lg-5">
-                    <div className="d-flex align-items-center justify-content-start">
+                
+                <div className="col pt-2 py-lg-0 px-auto px-lg-5 text-center text-lg-start">
+                    <div className="d-flex align-items-center justify-content-center">
                         <a className="navbar-brand text-light" href="/"><img src={logo} alt="" /></a>
                         <a href="/" className="navbar-brand text-light text-start">
                             <h4 className="m-0 fw-bold">HighZing</h4>
@@ -16,7 +17,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="col px-lg-5">
+                <div className="col pt-5 ps-5 py-lg-0 px-auto px-lg-5">
                     <div className="d-flex align-items-center justify-content-start text-start">
                         <div className="footer-icon">
                             <i className="fas fas2 fa-map-marker-alt"></i>
@@ -45,15 +46,15 @@ const Footer = () => {
                 </div>
 
 
-                <div className="col px-lg-5">
-                    <div className="text-start">
+                <div className="col pt-5 py-lg-0 px-auto px-lg-5">
+                    <div className="text-center text-lg-start">
                         <h6 className="fw-bold">About the Company</h6>
                         <p className="text-secondary py-2">HighZing is an medical & health care center. Our staff members are well trained professional.</p>
                         <div>
-                            <i className="footer-icons fab fa-facebook-square"></i>
-                            <i className="footer-icons fab fa-instagram"></i>
-                            <i className="footer-icons fab fa-twitter-square"></i>
-                            <i className="footer-icons fab fa-github-square"></i>
+                            <i className="footer-icons fab fab2 fa-facebook-square"></i>
+                            <i className="footer-icons fab fab2 fa-instagram"></i>
+                            <i className="footer-icons fab fab2 fa-twitter-square"></i>
+                            <i className="footer-icons fab fab2 fa-github-square"></i>
                         </div>
                     </div>
                 </div>

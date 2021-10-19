@@ -19,7 +19,7 @@ code {
 
 .page {
   padding-top: 70px;
-  padding-bottom: 216px;
+  padding-bottom: 225px;
 }
 
 #root {
@@ -34,6 +34,6 @@ code {
 @media only screen and (max-width:688px) {
   .page{
       padding-top: 85px;
-      padding-bottom: 411px;
+      padding-bottom: 510px;
   }
 }

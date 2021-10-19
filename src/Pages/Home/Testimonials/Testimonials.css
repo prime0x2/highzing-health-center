@@ -1,0 +1,22 @@
+.inner2 {
+    padding: 0px 100px;
+}
+
+.slider-text {
+    max-width: 300px;
+    height: auto;
+}
+
+.slider-text p {
+    font-weight: 300;
+    font-size: 1.15rem;
+}
+
+@media only screen and (max-width:688px) {
+    .carousel-inner {
+        padding: 0px 30px;
+    }
+    .slider-text {
+        padding-top: 20px;
+    }
+}

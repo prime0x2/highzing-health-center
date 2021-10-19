@@ -1,3 +1,4 @@
+import NotFound from './Pages/NotFound/NotFound';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './context/AuthProvider';
@@ -7,6 +8,7 @@ import Account from './Pages/Login/Account/Account';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
+import AllServices from './Pages/AllServices/AllServices';
 
 function App() {
     return (
@@ -32,8 +34,12 @@ function App() {
                         <ServiceDetails />
                     </PrivateRoute>
 
-                    <Route path="*">
+                    <PrivateRoute path="/services">
+                        <AllServices />
+                    </PrivateRoute>
 
+                    <Route path="*">
+                        <NotFound />
                     </Route>
                 </Switch>
                 

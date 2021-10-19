@@ -41,6 +41,27 @@
             "description": "Ophthalmology is a branch of medicine and surgery that deals with the diagnosis and treatment of disorders of the eye. An ophthalmologist is a physician who specializes in ophthalmology. The credentials include a degree in medicine, followed by additional four to five years of residency training in ophthalmology. Residency training programs for ophthalmology may require a one-year internship with training in internal medicine, pediatrics, or general surgery. Additional specialty training (or fellowship) may be sought in a particular aspect of eye pathology.",
             "img_large": "https://i.ibb.co/176kg6K/6l.jpg",
             "img_small": "https://i.ibb.co/ZTBv6N0/6s.jpg"
+        },
+        {
+            "_id": 1007,
+            "name": "Asthma Care",
+            "description": "Asthma is a long-term disease of the lungs. It causes your airways to get inflamed and narrow, and it makes it hard to breathe. Severe asthma can cause trouble talking or being active. You might hear your doctor call it a chronic respiratory disease. Some people refer to asthma as bronchial asthma. Asthma is a serious disease that affects about 25 million Americans and causes nearly 1.6 million emergency room visits every year. With treatment, you can live well. Without it, you might have to go to the ER often or stay at the hospital, which can affect your daily life.",
+            "img_large": "https://i.ibb.co/Jkfjmjf/A-Medical-doctor-applying-oxygen-treatment-on-a-sporty-men.jpg",
+            "img_small": "https://i.ibb.co/8mbPBHK/A-Medical-doctor-applying-oxygen-treatment-on-a-sporty-men.jpg"
+        },
+        {
+            "_id": 1008,
+            "name": "Genetic Services",
+            "description": "Genetics is a branch of biology concerned with the study of genes, genetic variation, and heredity in organisms. Though heredity had been observed for millennia, Gregor Mendel, Moravian scientist and Augustinian friar working in the 19th century in Brno, was the first to study genetics scientifically. Mendel studied trait inheritance, patterns in the way traits are handed down from parents to offspring over time. He observed that organisms (pea plants) inherit traits by way of discrete units of inheritance. This term, still used today, is a somewhat ambiguous definition of what is referred to as a gene.",
+            "img_large": "https://i.ibb.co/vdX2BKx/8l.jpg",
+            "img_small": "https://i.ibb.co/n6rn2cg/8s.jpg"
+        },
+        {
+            "_id": 1009,
+            "name": "Pregnancy Care",
+            "description": "We're dedicated to helping you grow your family. That’s why pregnancy care at Rush is personal — to your health history, your medical needs and your baby’s healthy development. Our obstetric team will provide the best in prenatal care, personalizing our treatment to support your pregnancy goals, birth plan and health needs. If you do experience complications, our resources — including specialists and advanced technology — will give your pregnancy the expert care it needs.If you are considering becoming pregnant or trying to get pregnant, meeting with a Rush obstetric provider can help you prepare to conceive. We offer preconception counseling, including a health and family history assessment, to address any potential issues before pregnancy",
+            "img_large": "https://i.ibb.co/9V1NLwy/9l.jpg",
+            "img_small": "https://i.ibb.co/KmhL3K7/9s.jpg"
         }
     ],
     
