@@ -19,7 +19,6 @@ const Account = () => {
 
 
     /* get name, email, password from input */
-
     const getEmail = (event) => {
         setEmail(event.target.value);
     }
@@ -30,6 +29,7 @@ const Account = () => {
         setName(event.target.value);
     }
 
+    /* handle email password register  */
     const handleRegister = () => {
         if (password.length < 6) {
             setError("Password Must Be 6 Character long.");
@@ -41,6 +41,7 @@ const Account = () => {
             })
     }
 
+    /* handle email password login */
     const handleLogin = () => {
         loginEmailPass(email, password)
             .then(() => {
@@ -48,6 +49,7 @@ const Account = () => {
             })
     }
 
+    /* handle google popup login */
     const handleGoogleLogin = () => {
         signInGoogle()
             .then(() => {
@@ -55,6 +57,7 @@ const Account = () => {
             });
     }
 
+    /* toggle between login and register */
     const handleLoginToggle = (type) => {
         setRegister(type);
     }
