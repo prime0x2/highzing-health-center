@@ -33,7 +33,7 @@ const Account = () => {
     const handleRegister = () => {
         registerNewUser(email, password, name)
             .then(() => {
-                history.push(redirect_uri);
+                setRegister(false);
             })
     }
 

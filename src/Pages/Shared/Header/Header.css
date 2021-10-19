@@ -1,6 +1,6 @@
-/* .navbar-collapse {
-    flex-grow: 0;
-} */
+.navbar {
+    background: rgb(234, 246, 255);
+}
 
 .navbar-brand img {
     width: 60px;
@@ -11,6 +11,24 @@
 }
 
 .selected {
-    color: rgb(0, 128, 255) !important;
+    color: rgb(0, 76, 255) !important;
     font-weight: 500;
+}
+
+.logged-in {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.user {
+    margin-right: 10px;
+    font-weight: bold;
+    color: rgb(34, 95, 236);
+}
+
+.btn-logout {
+    color: #fff;
+    font-size: 0.9rem;
+    border: 0;
+    background-color: rgb(85, 108, 255);
 }

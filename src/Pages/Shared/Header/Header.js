@@ -5,12 +5,12 @@ import logo from '../../../images/logo.png';
 import './Header.css';
 
 const Header = () => {
-    
+
     const { user, logOut } = useAuth();
-    
+
     return (
         <div>
-            <nav className="navbar sticky-top navbar-expand-lg navbar-light">
+            <nav className="navbar fixed-top navbar-expand-lg navbar-light">
                 <div className="container">
                     <div className="d-flex align-items-center">
                         <a className="navbar-brand text-light" href="/"><img src={logo} alt="" /></a>
@@ -25,24 +25,24 @@ const Header = () => {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <NavLink exact to="/" activeClassName="selected" className="nav-link px-4">Home</NavLink>
+                                <NavLink exact to="/" activeClassName="selected" className="nav-link px-4 text-dark">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/services" activeClassName="selected" className="nav-link px-4">Services</NavLink>
+                                <NavLink to="/services" activeClassName="selected" className="nav-link px-4 text-dark">Services</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/account" activeClassName="selected" className="nav-link px-4">Account</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                {
-                                    user ? 
-                                    <div>
-                                        <span>{user.displayName}</span><button onClick={logOut}>Logout</button>
-                                    </div> 
-                                    : " "
-                                }
+                                <NavLink to="/account" activeClassName="selected" className="nav-link px-4 text-dark">Account</NavLink>
                             </li>
                         </ul>
+                        <div>
+                            {
+                                user ?
+                                    <div className="logged-in d-flex align-items-center ms-5">
+                                        <span>Signed in as : <span className="user">{user.displayName}</span></span><button className="btn-logout px-2 py-1 rounded" onClick={logOut}><i className="fas fa-sign-out-alt"></i> &nbsp;Logout</button>
+                                    </div>
+                                    : " "
+                            }
+                        </div>
                     </div>
                 </div>
             </nav>

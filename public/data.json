@@ -1,44 +1,85 @@
-[
-    {
-        "_id": 1001,
-        "name": "X-ray & CT Scan",
-        "description": "A CT scan, or computed tomography scan, sends radiation through the body. However, unlike a simple X-ray study, it offers a much higher level of detail, creating computerized, 360-degree views of the body's structures. CT scans are fast and detailed. They take longer than X-rays but are still fast (about one minute).",
-        "img_large": "https://i.ibb.co/qJMbfrk/1l.jpg",
-        "img_small": "https://i.ibb.co/5M8xNRt/1s.jpg"
-    },
-    {
-        "_id": 1002,
-        "name": "Plastic surgery",
-        "description": "Plastic surgery is a surgical specialty involving the restoration, reconstruction, or alteration of the human body. It can be divided into two main categories: reconstructive surgery and cosmetic surgery. Reconstructive surgery includes craniofacial surgery, hand surgery, microsurgery, and the treatment of burns. Plastic surgery is a surgical specialty involved with both the improvement in a person's appearance and the reconstruction of facial and body tissue defects caused by illness, trauma, or birth disorders.",
-        "img_large": "https://i.ibb.co/2qSbJbj/2l.jpg",
-        "img_small": "https://i.ibb.co/vqh8Dgv/2s.jpg"
-    },
-    {
-        "_id": 1003,
-        "name": "Cardiology",
-        "description": "Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology. A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system. The cardiologist will carry out tests, and they may perform some procedures, such as heart catheterizations, angioplasty, or inserting a pacemaker.",
-        "img_large": "https://i.ibb.co/xG7xWxm/3l.jpg",
-        "img_small": "https://i.ibb.co/QYnhtFj/3s.jpg"
-    },
-    {
-        "_id": 1004,
-        "name": "Neurology",
-        "description": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the central and peripheral nervous systems, including their coverings, blood vessels, and all effector tissue, such as muscle.The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.",
-        "img_large": "https://i.ibb.co/YjfgjRJ/4l.jpg",
-        "img_small": "https://i.ibb.co/6RzCvqK/4s.jpg"
-    },
-    {
-        "_id": 1005,
-        "name": "Dental Care",
-        "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.Normally the body's natural defenses and good oral health care, such as daily brushing and flossing, keep bacteria under control. However, without proper oral hygiene, bacteria can reach levels that might lead to oral infections, such as tooth decay and gum disease.",
-        "img_large": "https://i.ibb.co/ftY017X/5l.jpg",
-        "img_small": "https://i.ibb.co/PN8FY7d/5s.jpg"
-    },
-    {
-        "_id": 1006,
-        "name": "Ophthalmology",
-        "description": "Ophthalmology is a branch of medicine and surgery that deals with the diagnosis and treatment of disorders of the eye. An ophthalmologist is a physician who specializes in ophthalmology. The credentials include a degree in medicine, followed by additional four to five years of residency training in ophthalmology. Residency training programs for ophthalmology may require a one-year internship with training in internal medicine, pediatrics, or general surgery. Additional specialty training (or fellowship) may be sought in a particular aspect of eye pathology.",
-        "img_large": "https://i.ibb.co/176kg6K/6l.jpg",
-        "img_small": "https://i.ibb.co/ZTBv6N0/6s.jpg"
-    }
-]
+{
+    "services" : [
+        {
+            "_id": 1001,
+            "name": "X-ray & CT Scan",
+            "description": "A CT scan, or computed tomography scan, sends radiation through the body. However, unlike a simple X-ray study, it offers a much higher level of detail, creating computerized, 360-degree views of the body's structures. CT scans are fast and detailed. They take longer than X-rays but are still fast (about one minute).A CT scan or computed tomography scan is a medical imaging technique used in radiology to get detailed images of the body noninvasively for diagnostic purposes. The personnel that perform CT scans are called radiographers or radiology technologists.",
+            "img_large": "https://i.ibb.co/qJMbfrk/1l.jpg",
+            "img_small": "https://i.ibb.co/5M8xNRt/1s.jpg"
+        },
+        {
+            "_id": 1002,
+            "name": "Plastic surgery",
+            "description": "Plastic surgery is a surgical specialty involving the restoration, reconstruction, or alteration of the human body. It can be divided into two main categories: reconstructive surgery and cosmetic surgery. Reconstructive surgery includes craniofacial surgery, hand surgery, microsurgery, and the treatment of burns. Plastic surgery is a surgical specialty involved with both the improvement in a person's appearance and the reconstruction of facial and body tissue defects caused by illness, trauma, or birth disorders.",
+            "img_large": "https://i.ibb.co/2qSbJbj/2l.jpg",
+            "img_small": "https://i.ibb.co/vqh8Dgv/2s.jpg"
+        },
+        {
+            "_id": 1003,
+            "name": "Cardiology",
+            "description": "Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology. A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system. The cardiologist will carry out tests, and they may perform some procedures, such as heart catheterizations, angioplasty, or inserting a pacemaker.",
+            "img_large": "https://i.ibb.co/xG7xWxm/3l.jpg",
+            "img_small": "https://i.ibb.co/QYnhtFj/3s.jpg"
+        },
+        {
+            "_id": 1004,
+            "name": "Neurology",
+            "description": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the central and peripheral nervous systems, including their coverings, blood vessels, and all effector tissue, such as muscle.The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord.",
+            "img_large": "https://i.ibb.co/YjfgjRJ/4l.jpg",
+            "img_small": "https://i.ibb.co/6RzCvqK/4s.jpg"
+        },
+        {
+            "_id": 1005,
+            "name": "Dental Care",
+            "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.Normally the body's natural defenses and good oral health care, such as daily brushing and flossing, keep bacteria under control. However, without proper oral hygiene, bacteria can reach levels that might lead to oral infections, such as tooth decay and gum disease.",
+            "img_large": "https://i.ibb.co/ftY017X/5l.jpg",
+            "img_small": "https://i.ibb.co/PN8FY7d/5s.jpg"
+        },
+        {
+            "_id": 1006,
+            "name": "Ophthalmology",
+            "description": "Ophthalmology is a branch of medicine and surgery that deals with the diagnosis and treatment of disorders of the eye. An ophthalmologist is a physician who specializes in ophthalmology. The credentials include a degree in medicine, followed by additional four to five years of residency training in ophthalmology. Residency training programs for ophthalmology may require a one-year internship with training in internal medicine, pediatrics, or general surgery. Additional specialty training (or fellowship) may be sought in a particular aspect of eye pathology.",
+            "img_large": "https://i.ibb.co/176kg6K/6l.jpg",
+            "img_small": "https://i.ibb.co/ZTBv6N0/6s.jpg"
+        }
+    ],
+    
+    "doctors": [
+        {
+            "_id": 2001,
+            "name": "Dr. Robert Davis",
+            "field": "Cardiology Specialist",
+            "email": "davis@highzing.com",
+            "phone": "012-345-6789",
+            "img": "https://i.ibb.co/Nt5Z3fr/doctor-four.jpg",
+            "description": "Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology. A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system. The cardiologist will carry out tests, and they may perform some procedures, such as heart catheterizations, angioplasty, or inserting a pacemaker."
+        },
+        {
+            "_id": 2002,
+            "name": "Dr. Helen Wilmore",
+            "field": "Ophthalmology Specialist",
+            "email": "helen@highzing.com",
+            "phone": "012-345-6789",
+            "img": "https://i.ibb.co/Thr51y5/doctor9-1.png",
+            "description": "Ophthalmology is a branch of medicine and surgery that deals with the diagnosis and treatment of disorders of the eye. An ophthalmologist is a physician who specializes in ophthalmology. The credentials include a degree in medicine, followed by additional four to five years of residency training in ophthalmology. Residency training programs for ophthalmology may require a one-year internship with training in internal medicine, pediatrics, or general surgery. Additional specialty training (or fellowship) may be sought in a particular aspect of eye pathology."
+        },
+        {
+            "_id": 2003,
+            "name": "Dr. Kristina Castle",
+            "field": "Neurology Specialist",
+            "email": "kristina@highzing.com",
+            "phone": "012-345-6789",
+            "img": "https://i.ibb.co/rxxg2Tm/doctor-two.jpg",
+            "description": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the central and peripheral nervous systems, including their coverings, blood vessels, and all effector tissue, such as muscle.The nervous system is a complex, sophisticated system that regulates and coordinates body activities. It has two major divisions: Central nervous system: the brain and spinal cord."
+        },
+        {
+            "_id": 2004,
+            "name": "Dr. Anthony Wills",
+            "field": "Dermatologist",
+            "email": "wills@highzing.com",
+            "phone": "012-345-6789",
+            "img": "https://i.ibb.co/9rFfvDq/doctor-seven.jpg",
+            "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.Normally the body's natural defenses and good oral health care, such as daily brushing and flossing, keep bacteria under control. However, without proper oral hygiene, bacteria can reach levels that might lead to oral infections, such as tooth decay and gum disease."
+        }
+    ]
+}

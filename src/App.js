@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home/Home';
 import ServiceDetails from './Pages/Home/ServiceDetails/ServiceDetails';
 import Account from './Pages/Login/Account/Account';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 
 function App() {
@@ -35,6 +36,8 @@ function App() {
 
                     </Route>
                 </Switch>
+                
+                <Footer />
             </BrowserRouter>
         </AuthProvider>
     );

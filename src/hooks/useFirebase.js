@@ -28,10 +28,12 @@ const useFirebase = () => {
         return (
             createUserWithEmailAndPassword(auth, email, password)
                 .then(() => {
+                    setUser(null);
                     updateProfile(auth.currentUser, {displayName: name})
                         .catch((error) => {
                             setError(error.message);
                         });
+                    logOut();
                 })
                 .catch((error) => {
                     setError(error.message);
@@ -111,6 +113,9 @@ const useFirebase = () => {
         }
         if (error === "Firebase: Error (auth/email-already-in-use).") {
             setError("This email already have an account.");
+        }
+        if (error === "Firebase: Error (auth/wrong-password).") {
+            setError("You have entered wrong Password.");
         }
     } , [error]);
     
