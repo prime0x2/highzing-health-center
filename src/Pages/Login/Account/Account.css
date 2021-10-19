@@ -1,0 +1,21 @@
+.login-banner {
+    mix-blend-mode: multiply;
+}
+
+.login-toggle {
+    display: inline-block;
+    opacity: 0.4;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(28, 107, 255);
+}
+
+.active-login-toggle {
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0px 0px 5px 5px;
+    color: rgb(28, 107, 255);
+    border-bottom: 2px solid rgb(0, 13, 255);
+}
+

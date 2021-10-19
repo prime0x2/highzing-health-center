@@ -1,0 +1,16 @@
+/* .navbar-collapse {
+    flex-grow: 0;
+} */
+
+.navbar-brand img {
+    width: 60px;
+}
+
+.nav-link {
+    font-size: 1.15rem;
+}
+
+.selected {
+    color: rgb(0, 128, 255) !important;
+    font-weight: 500;
+}
