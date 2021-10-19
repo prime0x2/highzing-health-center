@@ -5,7 +5,7 @@ import loginBanner from '../../../images/loginBanner.jpg';
 import './Account.css';
 
 const Account = () => {
-    const { registerNewUser, loginEmailPass, signInGoogle, error } = useAuth();
+    const { registerNewUser, loginEmailPass, signInGoogle, error, setError } = useAuth();
     const [register, setRegister] = useState(false);
 
     const [name, setName] = useState("");
@@ -31,6 +31,10 @@ const Account = () => {
     }
 
     const handleRegister = () => {
+        if (password.length < 6) {
+            setError("Password Must Be 6 Character long.");
+            return;
+        }
         registerNewUser(email, password, name)
             .then(() => {
                 setRegister(false);
