@@ -14,7 +14,7 @@ const Doctor = ({ doctor }) => {
                     <p className="card-text text-secondary m-0 mt-3">Email : {email}</p>
                     <p className="card-text text-secondary">Phone :{phone}</p>
                 </div>
-                <button className="btn btn-primary">Request an Appointment <i className="fas fa-angle-right"></i></button>
+                <button className="btn btn-primary w-auto mx-auto">Request an Appointment <i className="fas fa-angle-right"></i></button>
             </div>
         </div>
     );

@@ -102,5 +102,116 @@
             "img": "https://i.ibb.co/9rFfvDq/doctor-seven.jpg",
             "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.Normally the body's natural defenses and good oral health care, such as daily brushing and flossing, keep bacteria under control. However, without proper oral hygiene, bacteria can reach levels that might lead to oral infections, such as tooth decay and gum disease."
         }
+    ],
+    
+    "products" : [
+        {
+            "_id": 3001,
+            "name": "Adegra 100",
+            "type": "Tablet",
+            "generics": "Sildenafil Citrate 100mg",
+            "rating": 4,
+            "price": 65,
+            "img": "https://i.ibb.co/C9j4Y57/1.webp"
+        },
+        {
+            "_id": 3002,
+            "name": "Fluclox 500",
+            "type": "Capsule",
+            "generics": "Flucloxacillin Sodium 500mg",
+            "rating": 5,
+            "price": 45,
+            "img": "https://i.ibb.co/k2MdHF8/2.webp"
+        },
+        {
+            "_id": 3003,
+            "name": "Febus 40",
+            "type": "Tablet",
+            "generics": "Febuxostat 40mg",
+            "rating": 5,
+            "price": 38,
+            "img": "https://i.ibb.co/bmfWLM6/3.webp"
+        },
+        {
+            "_id": 3004,
+            "name": "Anaflex 500",
+            "type": "Tablet",
+            "generics": "Naproxen Sodium 500mg",
+            "rating": 5,
+            "price": 25,
+            "img": "https://i.ibb.co/SwPXPQR/4.webp"
+        },
+        {
+            "_id": 3005,
+            "name": "Doximar 200",
+            "type": "Tablet",
+            "generics": "Doxophylline 200mg",
+            "rating": 4,
+            "price": 30,
+            "img": "https://i.ibb.co/WDtmcdX/5.webp"
+        },
+        {
+            "_id": 3006,
+            "name": "Atasin 10",
+            "type": "Tablet",
+            "generics": "Atorvastatin Calcium 10mg",
+            "rating": 5,
+            "price": 52,
+            "img": "https://i.ibb.co/GH5s4Lg/6.webp"
+        },
+        {
+            "_id": 3007,
+            "name": "Brodil 4",
+            "type": "Tablet",
+            "generics": "Salbutamol 4mg",
+            "rating": 5,
+            "price": 51,
+            "img": "https://i.ibb.co/LQMdmDb/7.webp"
+        },
+        {
+            "_id": 3008,
+            "name": "Cartilex D",
+            "type": "Tablet",
+            "generics": "Glucosamine Sulphate 750mg",
+            "rating": 4,
+            "price": 46,
+            "img": "https://i.ibb.co/8Ynp2Hk/8.webp"
+        },
+        {
+            "_id": 3009,
+            "name": "Ritch 50 ml",
+            "type": "Oral Suspension",
+            "generics": "Glucosamine Sulphate 750mg",
+            "rating": 5,
+            "price": 75,
+            "img": "https://i.ibb.co/vsHS39b/9.webp"
+        },
+        {
+            "_id": 3010,
+            "name": "Acical-D",
+            "type": "Tablet",
+            "generics": "Calcium Carbonate 500mg",
+            "rating": 5,
+            "price": 60,
+            "img": "https://i.ibb.co/X2BVLBJ/10.webp"
+        },
+        {
+            "_id": 3011,
+            "name": "Ebasten 10",
+            "type": "Tablet",
+            "generics": "Ebastine 10mg",
+            "rating": 4,
+            "price": 52,
+            "img": "https://i.ibb.co/McNf2cd/11.webp"
+        },
+        {
+            "_id": 3012,
+            "name": "Biocal-D",
+            "type": "Tablet",
+            "generics": "Calcium Carbonate 500mg",
+            "rating": 5,
+            "price": 72,
+            "img": "https://i.ibb.co/hX3x2W9/12.webp"
+        }
     ]
 }

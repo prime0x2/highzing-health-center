@@ -6,7 +6,7 @@ const Service = ({ service }) => {
     const { _id, name, description, img_small } = service;
 
     return (
-        <div className="col py-4">
+        <div className="col">
             <div className="card shadow-lg h-100 p-4 rounded">
                 <img src={img_small} className="img-fluid card-img-top rounded" alt="..." />
                 <div className="card-body pt-3 px-0">

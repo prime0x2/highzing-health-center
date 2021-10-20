@@ -9,6 +9,7 @@ import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 import AllServices from './Pages/AllServices/AllServices';
+import Shop from './Pages/Shop/Shop';
 
 function App() {
     return (
@@ -25,6 +26,10 @@ function App() {
                     <Route path="/home">
                         <Home />
                     </Route>
+
+                    <PrivateRoute path="/shop">
+                        <Shop />
+                    </PrivateRoute>
 
                     <Route path="/account">
                         <Account />

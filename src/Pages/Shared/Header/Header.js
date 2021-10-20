@@ -31,16 +31,21 @@ const Header = () => {
                                 <NavLink to="/services" activeClassName="selected" className="nav-link px-4 text-dark">Services</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/account" activeClassName="selected" className="nav-link px-4 text-dark">Account</NavLink>
+                                <NavLink to="/shop" activeClassName="selected" className="nav-link px-4 text-dark">Shop</NavLink>
                             </li>
+                            {
+                                !user && 
+                                <li className="nav-item">
+                                    <NavLink to="/account" activeClassName="selected" className="nav-link px-4 text-dark">Account</NavLink>
+                                </li>
+                            }
                         </ul>
                         <div>
                             {
-                                user ?
+                                user &&
                                     <div className="logged-in d-flex align-items-center ms-5">
                                         <span>Signed in as : <span className="user">{user.displayName}</span></span><button className="btn-logout px-2 py-1 rounded" onClick={logOut}><i className="fas fa-sign-out-alt"></i> &nbsp;Logout</button>
                                     </div>
-                                    : " "
                             }
                         </div>
                     </div>

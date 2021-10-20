@@ -44,16 +44,20 @@ const Account = () => {
     /* handle email password login */
     const handleLogin = () => {
         loginEmailPass(email, password)
-            .then(() => {
-                history.push(redirect_uri);
+            .then((result) => {
+                if (result?.user) {
+                    history.push(redirect_uri);
+                }
             })
     }
 
     /* handle google popup login */
     const handleGoogleLogin = () => {
         signInGoogle()
-            .then(() => {
-                history.push(redirect_uri);
+            .then((result) => {
+                if (result?.user) {
+                    history.push(redirect_uri);
+                }
             });
     }
 
@@ -64,7 +68,7 @@ const Account = () => {
 
     return (
         <div className="page">
-            <div className="container shadow-lg p-5 mt-3 mt-lg-5 rounded-3">
+            <div className="container shadow-lg p-5 mt-3 my-lg-5 rounded-3">
                 <div className="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-5 align-items-center">
                     <div className="col">
                         <img src={loginBanner} className="img-fluid m-lg-4 px-lg-5" alt="" />
@@ -76,12 +80,11 @@ const Account = () => {
 
                             <form onSubmit={(e) => { e.preventDefault(); register ? handleRegister() : handleLogin() }} className="text-start px-lg-3 mt-1 text-center">
                                 {
-                                    register ?
+                                    register &&
                                         <div className="mb-3 text-start">
                                             <label htmlFor="fName" className="form-label">Full Name</label>
                                             <input onBlur={getName} type="text" className="form-control" aria-label="Full name" required />
-                                        </div> :
-                                        ""
+                                        </div>
                                 }
                                 <div className="mb-2 text-start">
                                     <label htmlFor="inputEmail4" className="form-label">Email</label>
