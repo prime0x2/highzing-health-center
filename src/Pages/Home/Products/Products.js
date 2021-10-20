@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import useServices from '../../../hooks/useServices';
-import Product from '../Product.js/Product';
+import Product from '../Product/Product'
 
 const Products = () => {
     
