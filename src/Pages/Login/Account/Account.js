@@ -38,6 +38,7 @@ const Account = () => {
         registerNewUser(email, password, name)
             .then(() => {
                 setRegister(false);
+                alert('Sign Up Successful!');
             })
     }
 
@@ -79,6 +80,7 @@ const Account = () => {
                             <h4 className={register ? "login-toggle mx-3 pb-2" : "active-login-toggle mx-3 pb-2"} onClick={() => handleLoginToggle(false)}>Sign IN</h4>
 
                             <form onSubmit={(e) => { e.preventDefault(); register ? handleRegister() : handleLogin() }} className="text-start px-lg-3 mt-1 text-center">
+                                {/* using onChange because "Enter" key doesn't work if onBlur is used */}
                                 {
                                     register &&
                                         <div className="mb-3 text-start">
@@ -88,11 +90,11 @@ const Account = () => {
                                 }
                                 <div className="mb-2 text-start">
                                     <label htmlFor="inputEmail4" className="form-label">Email</label>
-                                    <input onBlur={getEmail} type="email" className="form-control" id="inputEmail4" />
+                                    <input onChange={getEmail} type="email" className="form-control" id="inputEmail4" required />
                                 </div>
                                 <div className="text-start">
                                     <label htmlFor="inputPassword4" className="form-label">Password</label>
-                                    <input onBlur={getPass} type="password" className="form-control" id="inputPassword4" />
+                                    <input onChange={getPass} type="password" className="form-control" id="inputPassword4" required />
                                 </div>
                                 <button type="submit" className="btn btn-primary mt-3"><i className="fas fa-sign-in-alt"></i> &nbsp;{register ? "Sign UP" : "Sign In"}</button>
                             </form>

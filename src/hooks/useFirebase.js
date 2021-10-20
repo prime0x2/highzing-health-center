@@ -64,7 +64,6 @@ const useFirebase = () => {
         setError("");
         const googleProvider = new GoogleAuthProvider();
         
-        
         return (
             signInWithPopup(auth, googleProvider)
                 .catch((error) => {
@@ -116,9 +115,6 @@ const useFirebase = () => {
         }
         if (error === "Firebase: Error (auth/wrong-password).") {
             setError("You have entered wrong Password.");
-        }
-        if (error === "Firebase: Error (auth/invalid-email).") {
-            setError("Please Enter a valid Email.");
         }
     } , [error]);
     
